@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Api", "Movie.Api\Movie.Api.csproj", "{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Application", "Movie.Application\Movie.Application.csproj", "{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Domain", "Movie.Domain\Movie.Domain.csproj", "{837C549F-4A10-4440-9CF8-CCD070DB5BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Infrastructure", "Movie.Infrastructure\Movie.Infrastructure.csproj", "{9D41062E-85DB-44FF-9A44-1670B55075B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9FDDD422-666A-4FEF-B82B-6DED0F13DAAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Api.Tests", "Movie.Api.Tests\Movie.Api.Tests.csproj", "{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837C549F-4A10-4440-9CF8-CCD070DB5BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837C549F-4A10-4440-9CF8-CCD070DB5BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837C549F-4A10-4440-9CF8-CCD070DB5BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837C549F-4A10-4440-9CF8-CCD070DB5BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D41062E-85DB-44FF-9A44-1670B55075B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D41062E-85DB-44FF-9A44-1670B55075B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D41062E-85DB-44FF-9A44-1670B55075B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D41062E-85DB-44FF-9A44-1670B55075B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AFBBD44-AEA4-4C7A-81C4-E3E0DDE0230E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0F1C69F9-767E-4DE6-BC89-8C1C96C756A7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{837C549F-4A10-4440-9CF8-CCD070DB5BFF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9D41062E-85DB-44FF-9A44-1670B55075B1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9A5AD35B-B375-430E-8B4A-FA3F67A1CDA1} = {9FDDD422-666A-4FEF-B82B-6DED0F13DAAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5F535D0-17C1-4990-A55F-24709FA612EA}
+	EndGlobalSection
+EndGlobal
